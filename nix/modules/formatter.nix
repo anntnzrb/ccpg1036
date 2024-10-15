@@ -14,6 +14,7 @@
         actionlint.enable = true;
         prettier.enable = true;
         just.enable = true;
+        typstfmt.enable = true;
 
         deadnix = {
           enable = true;

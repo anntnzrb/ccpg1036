@@ -32,7 +32,17 @@
         };
 
         packages = [
+          # fmt
           config.treefmt.build.wrapper
+          # task runner
+          pkgs.just
+
+          # typst
+          pkgs.typst
+
+          ## python
+          # lsp
+          pkgs.ruff
         ];
       };
     };
