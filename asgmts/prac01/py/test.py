@@ -3,7 +3,7 @@ import time
 import random
 from typing import List
 
-from main import insertionSort
+from .main import insertionSort
 
 
 class TestInsertionSort(unittest.TestCase):

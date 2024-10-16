@@ -42,6 +42,7 @@
 
           ## python
           # lsp
+          pkgs.pyright
           pkgs.ruff
         ];
       };

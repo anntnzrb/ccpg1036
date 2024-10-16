@@ -1,5 +1,5 @@
 {
-  description = "A {nix,flake}-enabled project template for pretty much any type of development";
+  description = "annt's sandbox for CCPG1036";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
