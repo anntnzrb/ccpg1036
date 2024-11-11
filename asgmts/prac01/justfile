@@ -4,7 +4,7 @@ default:
 
 # run tests
 test:
-    uv run test.py
+    uv run py/test.py
 
 # ============================================================================
 # docs
