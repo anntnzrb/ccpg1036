@@ -1,0 +1,23 @@
+# prints this menu
+default:
+    @just --list
+
+# run tests
+test:
+    uv run py/test.py
+
+# ============================================================================
+# docs
+# ============================================================================
+DOCS_DIR := "docs"
+OUT_FILE := "jago-prac06.pdf"
+
+# build PDF
+docs:
+    @printf "Building docs...\\n"
+    typst compile --root {{ DOCS_DIR }} {{ DOCS_DIR }}/main.typ {{ OUT_FILE }}
+
+# watch PDF
+docs-watch:
+    @printf "Watching docs...\\n"
+    typst watch --root {{ DOCS_DIR }} {{DOCS_DIR }}/main.typ {{ OUT_FILE }}
