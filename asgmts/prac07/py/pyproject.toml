@@ -1,0 +1,6 @@
+[project]
+name = "prac07"
+version = "0.1.0"
+description = "CCPG1036 - Práctica 07"
+requires-python = ">=3.12"
+dependencies = []
